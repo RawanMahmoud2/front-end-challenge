@@ -1,23 +1,29 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 .container {
-    background-color: #4233F0;
+    background-color: #ffffff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     width: 300px;
-    color: white;
+    color: #333;
+    text-align: center;
 }
 
 .result {
-    text-align: center;
     margin-bottom: 20px;
+    background: linear-gradient(135deg, #6340FB, #332EEA); 
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
 }
 
 .score {
@@ -25,7 +31,7 @@ body {
 }
 
 .score-circle {
-    background-color: #4531E8;
+    background-color: #432DDF;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -34,6 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    color: white;
 }
 
 .score-number {
@@ -54,37 +61,40 @@ body {
 .item {
     display: flex;
     align-items: center;
-    padding: 5px;
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 .item-reaction {
-    background-color: #FFF6F5;
+    background-color: #fef0f0;
 }
 
 .item-memory {
-    background-color: #F0FFF6;
+    background-color: #f0fef0;
 }
 
 .item-verbal {
-    background-color: #F5F0FF;
+    background-color: #f0f0fe;
 }
 
 .item-visual {
-    background-color: #F6F5FF;
+    background-color: #f0f0fe;
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     margin-right: 10px;
 }
 
 button {
-    background-color: #303B59;
+    background-color: #303B5A;
     color: white;
     padding: 10px;
     border: none;
+    border-radius: 5px;
     width: 100%;
     cursor: pointer;
+    font-size: 1em;
 }
